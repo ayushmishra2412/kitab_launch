@@ -53,7 +53,7 @@
         >
           <% allposts.reverse().forEach(function(post){ %>
           <div
-            class="post w-full sm:w-1/2 md:w-1/4 p-4 mb-4 rounded-md border-[1px] border-zinc-700 bg-gradient-to-t from-[#D9AFD9] to-[#97D9E1]"
+            class="post w-full sm:w-1/2 md:w-1/4 p-4 mb-4 flex flex-col justify-between rounded-md border-[1px] border-zinc-700 bg-gradient-to-t from-[#D9AFD9] to-[#97D9E1]"
           >
             <h4 class="text-red-900 text-sm mb-1">
               @<%= post.user.username %>
